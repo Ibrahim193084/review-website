@@ -1,0 +1,13 @@
+.banner{background-image: url("https://www.graduateprogram.org/wp-content/uploads/2019/08/Aug-22-5-skills-every-teacher-should-develop-in-2019_web.jpg"),
+linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+height: 780px;
+width: 100%;
+background-blend-mode: overlay;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+/* opacity: 0.9; */
+}
+.find{
+    margin: 250px;
+}
