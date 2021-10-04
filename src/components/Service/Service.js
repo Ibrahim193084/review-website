@@ -1,9 +1,10 @@
-import React from 'react';
+
 import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
 const Service = (props) => {
     const {name, id, subject, salary, about, img} = props.teacher
+  
+   
     return (
         <div>
              <Col>
@@ -20,7 +21,6 @@ const Service = (props) => {
           <Link to={`services/${id}`}>
           <button className="btn btn-primary rounded-pill">View Tutor</button>
           </Link>
-     
         </Card.Body>
       </Card>
     </Col>

@@ -15,7 +15,7 @@ const Navigation = () => {
     <Navbar.Brand href="#home">Tutors World</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="ms-5">
+      <Nav className="ms-5 my-5">
       <Stack direction="horizontal" gap={5}>
       <NavLink className="navlink"
   to="/home"
