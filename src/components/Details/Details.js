@@ -3,9 +3,9 @@ import { useParams } from 'react-router';
 
 const Details = () => {
     const {id} = useParams()
-    const [details, setDetails] = useState([])
+    const [teachers, setTeachers] = useState([]);
     useEffect(()=>{
-        fetch('./fakeData.json/')
+        fetch('./fakeData.json')
         .then(res => res.json())
         .then(data => console.log(data))
     },[])
