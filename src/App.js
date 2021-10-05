@@ -7,10 +7,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
 import Home from './components/Home/Home';
 import ServicePage from './components/ServicePage/ServicePage';
-import Details from './components/Details/Details';
 import NewsPage from './components/NewsPage/NewsPage';
 import AboutPage from './components/AboutPage/AboutPage';
 import NotFound from './components/NotFound/NotFound';
+import Detail from './components/Detail/Detail';
 
 function App() {
   return (
@@ -27,7 +27,8 @@ function App() {
             <ServicePage></ServicePage>
           </Route>
           <Route exact path="/services/:id">
-            <Details></Details>
+            <Detail></Detail>
+          
           </Route>
           <Route exact path="/news">
             <NewsPage></NewsPage>

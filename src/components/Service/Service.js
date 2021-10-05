@@ -1,8 +1,13 @@
 
 import { Card, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link,useHistory } from 'react-router-dom';
 const Service = (props) => {
     const {name, id, subject, salary, about, img} = props.teacher
+    const history = useHistory()
+    const buttonHandler = ()=>{
+      history.push(`services/${id}`)
+
+    }
   
    
     return (
@@ -18,9 +23,8 @@ const Service = (props) => {
           <Card.Text>
               {salary}
           </Card.Text>
-          <Link to={`services/${id}`}>
-          <button className="btn btn-primary rounded-pill">View Tutor</button>
-          </Link>
+          <button onClick={buttonHandler}
+          className="btn btn-primary rounded-pill">View Tutor</button>
         </Card.Body>
       </Card>
     </Col>
