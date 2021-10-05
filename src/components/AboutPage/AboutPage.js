@@ -5,7 +5,7 @@ import Navigation from '../Navigation/Navigation';
 
 const AboutPage = () => {
     return (
-        <div className="bg-secondary">
+        <div>
             <Navigation></Navigation>
             <About></About>
             <Footer></Footer>
