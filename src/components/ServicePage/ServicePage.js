@@ -5,7 +5,7 @@ import Navigation from '../Navigation/Navigation';
 
 const ServicePage = () => {
     return (
-        <div className="bg-secondary">
+        <div>
             <Navigation/>
             <MoreServices></MoreServices>
             <Footer></Footer>

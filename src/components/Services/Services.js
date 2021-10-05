@@ -11,7 +11,7 @@ const Services = () => {
     },[])
     return (
         <div className="my-5">
-            <h1 className="text-center my-5">Our Services</h1>
+            <h1 className="text-center my-5 text-white">Our Services</h1>
             <Row xs={1} md={4} className="g-4">
                 {
                     teachers.slice(0, 4)?.map(teacher => <Service teacher={teacher} key={teacher.id}/>)

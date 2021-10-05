@@ -13,7 +13,7 @@ const MoreServices = () => {
 
     return (
         <div>
-                <h1 className="text-center my-5">Our Services</h1>
+                <h1 className="text-center my-5 text-white">Our Services</h1>
             <Row xs={1} md={3} className="g-4">
                 {
                     teachers?.map(teacher => <MoreService teacher={teacher} key={teacher.id}/>)

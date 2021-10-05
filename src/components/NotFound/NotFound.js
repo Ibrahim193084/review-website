@@ -4,7 +4,7 @@ import Navigation from '../Navigation/Navigation';
 
 const NotFound = () => {
     return (
-        <div className="bg-secondary">
+        <div>
             <Navigation></Navigation>
             <h1 className="text-danger text-center mt-5">404</h1>
             <h1 className="text-danger text-center">Page Not Found</h1>

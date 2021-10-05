@@ -4,7 +4,7 @@ import { Card, Col, Row } from 'react-bootstrap';
 const News = () => {
     return (
         <div className="my-5">
-            <h1 className="text-center my-5">Latest News</h1>
+            <h1 className="text-center my-5 text-white">Latest News</h1>
             <Row xs={1} md={4} className="g-4">
             <Col>
       <Card style={{height: '550px',margin:'auto'}}>

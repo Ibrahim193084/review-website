@@ -5,7 +5,7 @@ import News from '../News/News';
 
 const NewsPage = () => {
     return (
-        <div className="bg-secondary">
+        <div>
             <Navigation/>
             <News></News>
             <Footer></Footer>

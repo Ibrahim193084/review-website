@@ -14,7 +14,7 @@ import Detail from './components/Detail/Detail';
 
 function App() {
   return (
-    <div>
+    <div className="bg-secondary">
       <Router>
         <Switch>
           <Route exact path="/">
